@@ -28,7 +28,8 @@ export default {
 header{
   display: inline-flex;
   margin-top:30px;
-  margin-left:200px
+  margin-left:200px;
+  font-family: sans-serif;
 }
 a{
   margin-right: 100px;

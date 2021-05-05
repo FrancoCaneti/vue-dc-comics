@@ -1,6 +1,8 @@
 <template>
 <main>
-    <h1>va bene</h1>
+    <div class="container">
+        <h1>content goes here</h1>
+    </div>
 </main>
 </template>
 
@@ -10,6 +12,13 @@ name:'Main'
 }
 </script>
 
-<style>
-
+<style scoped>
+.container{
+    width:100%;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.74);
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
 </style>
