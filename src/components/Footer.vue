@@ -49,7 +49,29 @@
        </div>
     </div>
     <div class="follow">
-
+     <button>
+       Sign-Up Now
+     </button>
+     <ul >
+       <li class="partner">
+         <h4>FOLLOW US</h4>
+       </li>
+       <li class="partner">
+         <img src="../assets/footer-facebook.png" alt="">
+       </li>
+       <li class="partner">
+         <img src="../assets/footer-twitter.png" alt="">
+       </li>
+       <li class="partner">
+         <img src="../assets/footer-youtube.png" alt="">
+       </li>
+       <li class="partner">
+         <img src="../assets/footer-pinterest.png" alt="">
+       </li>
+       <li class="partner">
+         <img src="../assets/footer-periscope.png" alt="">
+       </li>
+     </ul>
     </div>
   </footer>
 </template>
@@ -61,6 +83,9 @@ name:'Footer'
 </script >
 
 <style scoped>
+footer{
+  font-family:sans-serif ;
+}
 .hero{
   height:350px;
   width: 100%;
@@ -83,12 +108,36 @@ h3{
 }
 .logo{
 height: 350px;
-    margin-left: 90px;
+    margin-left: 220px;
 }
 .follow{
-  heigth:200px;
+  height:100px;
   width:100%;
-  background-color:rgba(0, 0, 0, 0.74); 
+  background: rgba(0, 0, 0, 0.801);
+  display:flex;
+ 
+  align-content: center;
 }
+
+button{
+     border: 2px solid #0077d9;
+    height: 50px;
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 0px 15px;
+    color:white
+}
+h4{
+  color:#0077d9;
+  margin-left: 600px;
+  margin-bottom:10px
+}
+.partner{
+  display: inline-block;
+  list-style: none;
+  margin:10px
+}
+
 
 </style>

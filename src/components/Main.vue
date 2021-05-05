@@ -16,7 +16,7 @@ name:'Main'
 .container{
     width:100%;
     height: 100px;
-    background-color:rgba(0, 0, 0, 0.74);
+    background-color:rgba(0, 0, 0, 0.89);
     color:white;
     text-align: center;
     vertical-align: middle;
