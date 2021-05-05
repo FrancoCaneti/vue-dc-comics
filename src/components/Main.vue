@@ -1,16 +1,25 @@
 <template>
 <main>
     <div class="container">
-        <h1>content goes here</h1>
-        <div class="fumetto">fumetto</div>
+        
     </div>
+  <div class="fumetti">
+   <Comics 
+    v-for="(fumetto,index) in fumetti"
+    :key="index" 
+    :details="fumetto"/>
+  </div>
 </main>
 </template>
 
 <script>
 
+import Comics from '@/components/Comics.vue';
 export default {
 name:'Main',
+components:{
+    Comics,
+},
 data() {
     return {
         fumetti:[
@@ -107,12 +116,16 @@ data() {
 </script>
 
 <style scoped>
+
 .container{
-    width:100%;
-    height: 100px;
-    background-color:rgba(0, 0, 0, 0.89);
-    color:white;
-    text-align: center;
-    vertical-align: middle;
+    background-image: url(/img/jumbotron.1b0a3671.jpg);
+    background-size: 100%;
+    height: 300px;
+    width: 100%;
+   
 }
+.fumetti{
+    display: flex;
+}
+
 </style>

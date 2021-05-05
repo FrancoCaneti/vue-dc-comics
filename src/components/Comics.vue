@@ -1,10 +1,13 @@
 <template>
-   
+   <div class="fumetto">
+       <img :src="details.scr" :alt="details.series">
+   </div>
 </template>
 
 <script>
 export default {
-name:'Comics'
+name:'Comics',
+props:['details'],
 }
 </script>
 
