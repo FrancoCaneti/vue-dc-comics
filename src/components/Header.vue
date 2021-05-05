@@ -1,9 +1,20 @@
 <template>
   <header>
       <a href="/">
-      <img src="" alt="">
+      <img src="../assets/dc-logo.png" alt="">
       </a>
-      <h1>ciaooooo</h1>
+        <ul>
+          <li>CHARACTERS</li>
+           <li>COMICS </li>
+            <li>MOVIES</li>
+             <li>TV</li>
+              <li>GAMES</li>
+               <li>COLLECTIBLES</li>
+                <li>VIDEOS</li>
+                <li>FANS</li>
+                <li>NEWS</li>
+                <li>SHOP</li>
+       </ul>
   </header>
 </template>
 
@@ -14,5 +25,21 @@ export default {
 </script>
 
 <style scoped>
+header{
+  display: inline-flex;
+  margin-top:30px;
+  margin-left:200px
+}
+a{
+  margin-right: 100px;
+  height:30px
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin:10px
+}
+
 
 </style>
