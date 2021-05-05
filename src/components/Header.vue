@@ -1,6 +1,8 @@
 <template>
   <header>
-      <a href="">logo</a>
+      <a href="/">
+      <img src="" alt="">
+      </a>
       <h1>ciaooooo</h1>
   </header>
 </template>
@@ -11,6 +13,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
