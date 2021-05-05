@@ -1,15 +1,13 @@
 <template>
   <header>
       <a href="">logo</a>
-      <nav>
-          naw items
-      </nav>
+      <h1>ciaooooo</h1>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header",
+ name:'Header'
 }
 </script>
 
